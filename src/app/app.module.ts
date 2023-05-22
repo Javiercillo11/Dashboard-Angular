@@ -17,17 +17,16 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { CardComponent } from './card/card.component';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
-import { LoginComponent } from './login/login.component';
+
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavComponent,
     DashComponent,
     CardComponent,
-    LineChartComponent,
-    LoginComponent
-  ],
+    LineChartComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
